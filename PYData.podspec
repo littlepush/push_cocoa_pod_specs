@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PYData"
-  s.version      = "0.9.2"
+  s.version      = "0.9.3"
   s.summary      = "A data cache written in Objective-C"
 
   s.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author             = { "Push Chen" => "littlepush@gmail.com" }
   s.social_media_url   = "https://twitter.com/littlepush"
   s.platform     = :ios, "5.0"
-  s.source       = { :git => "https://github.com/littlepush/PYData.git", :tag => "0.9.2" }
+  s.source       = { :git => "https://github.com/littlepush/PYData.git", :tag => "0.9.3" }
   s.source_files = "static-library/*.{h,m}"
   s.library      = "sqlite3"
   s.requires_arc = true
