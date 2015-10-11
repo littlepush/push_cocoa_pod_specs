@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PYGradientCycle"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Gradient Cycle."
 
   s.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "7.0"
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/littlepush/PYGradientCycle.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/littlepush/PYGradientCycle.git", :tag => "1.1" }
 
   s.source_files  = "PYGradientCycle/*.{h,m}"
 end
