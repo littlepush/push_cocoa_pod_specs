@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PYLocationManager"
-  s.version      = "0.4"
+  s.version      = "0.5"
   s.summary      = "A simple location and navigation app manager"
   s.homepage     = "https://github.com/littlepush/PYLocationManager"
   s.license      = { :type => "LGPLv3", :file => "LICENSE" }
   s.author             = { "Push Chen" => "littlepush@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/littlepush/PYLocationManager.git", :tag => "0.4" }
+  s.source       = { :git => "https://github.com/littlepush/PYLocationManager.git", :tag => "0.5" }
   s.source_files  = "PYLocationManager/*.{h,m}", "PYLocationManager/gps.db"
   s.requires_arc = true
   s.library      = "sqlite3"
