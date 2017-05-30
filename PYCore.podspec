@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PYCore"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A tiny library to make Objective-C for iOS more powerful.."
 
   s.description  = <<-DESC
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "5.0"
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/littlepush/PYCore.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/littlepush/PYCore.git", :tag => "1.0.3" }
 
   s.source_files  = "static-library/*.{h,m}", "static-library/**/*.{h,m}"
 end
