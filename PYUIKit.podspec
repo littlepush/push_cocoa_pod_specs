@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PYUIKit"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Make create UI more easily in iOS application"
   s.homepage     = "https://github.com/littlepush/PYUIKit"
   s.license      = { :type => "LGPLv3", :file => "LICENSE" }
   s.author             = { "Push Chen" => "littlepush@gmail.com" }
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/littlepush/PYUIKit.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/littlepush/PYUIKit.git", :tag => "1.0.3" }
   s.source_files  = "PYUIKit/*.{h,m}", "PYUIKit/**/*.{h,m}"
   s.frameworks = "ImageIO", "CoreImage", "CoreGraphics"
   s.requires_arc = true
