@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "PYCore"
-  s.version      = "1.0.9"
+  s.version      = "1.0.10"
   s.summary      = "A tiny library to make Objective-C for iOS more powerful.."
 
   s.description  = <<-DESC
@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
   s.author             = { "Push Chen" => "littlepush@gmail.com" }
   s.social_media_url   = "https://github.com/littlepush"
 
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/littlepush/PYCore.git", :tag => "1.0.9" }
+  s.source       = { :git => "https://github.com/littlepush/PYCore.git", :tag => "1.0.10" }
 
   s.source_files  = "static-library/*.{h,m}", "static-library/**/*.{h,m}"
   s.resources = ['static-library/*.json']
